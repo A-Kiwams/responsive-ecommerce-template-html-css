@@ -1,4 +1,4 @@
-/* STYLE SHEET */
+/*** style sheet ***/
 *{
     margin: 0;
     padding: 0;
@@ -75,7 +75,6 @@ p{
 .header .row{
     margin-top: 70px;
 }
-
 /*** categories ***/
 .categories{
     margin: 70px 0;
@@ -94,7 +93,16 @@ p{
     padding-left: 25px;
     padding-right: 25px;
 }
-
+/*** featured products ***/
+.col-4{
+    flex-basis: 20%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 100%;
+}
 
 
 
