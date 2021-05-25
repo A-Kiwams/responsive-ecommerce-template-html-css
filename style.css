@@ -1,9 +1,8 @@
-/* style sheeet */
+/* STYLE SHEET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    background-color:beige;
 }
 .navbar{
     display: flex;
@@ -29,7 +28,10 @@ a{
 p{
     color: #555;
 }
-/*container*/
+/*HEADER*/
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
 .container{
     max-width: 1300px;
     margin: auto;
