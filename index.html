@@ -21,7 +21,7 @@
                 <img src="images/logo.png" width="125px">
             </div>
             <nav>
-                <ul>
+                <ul id="menuItems">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">About</a></li>
@@ -30,6 +30,7 @@
                 </ul>
             </nav>
             <img src="images/cart.png" width="30" height="30">
+            <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
         </div>
         <div class="row">
             <div class="col-2">
@@ -325,8 +326,60 @@
 
     <!------ footer ------>
     <div class="footer">
-        hh 
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download our app for Android and IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure and Benefits Of Sports Accessible To Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Become Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Kiwams eCommerce Template</p>
+        </div>
     </div>
+
+    <!------ javascript for toggle menu ------>
+    <script>
+        var menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function menuToggle(){
+            if(menuItems.style.maxHeight == "0px")
+            {
+                menuItems.style.maxHeight = "200px"
+            }
+            else{
+                menuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
 
 </body>
 </html>
