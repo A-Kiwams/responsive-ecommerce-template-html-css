@@ -253,6 +253,20 @@ ul{
     margin-left: 20px;
     display: none;
 }
+
+/*** all products ***/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+
 /*** media query for menu ***/
 @media only screen and (max-width: 800px){
 
