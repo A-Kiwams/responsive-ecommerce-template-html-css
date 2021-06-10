@@ -284,6 +284,11 @@ select:focus{
     color: white;   
 }
 
+/*** single product ***/
+.single-product{
+    margin-top: 80px;
+}
+
 /*** media query for menu ***/
 @media only screen and (max-width: 800px){
 
