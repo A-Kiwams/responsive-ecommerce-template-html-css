@@ -1,4 +1,6 @@
-# Responsive Ecommerce Template With HTML-CSS
-## See Demo [Demo](https://a-kiwams.github.io/responsive-ecommerce-template-html-css/)
+# HTML5 UI DESIGNS
 
-Leverage on the home page to create associated pages per your design and creativity.
+## Grid | Flexbox | CSS3 | HTML5 | Responsive Layout | JavaScript
+
+1. Responsive ecommerce website: html-css-flexbox. Demo [Demo](https://a-kiwams.github.io/responsive-ecommerce-template-html-css/)
+2. Google home page: css-flexbos-html. Demo
